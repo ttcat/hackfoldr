@@ -88,7 +88,7 @@ angular.module 'app.controllers' <[ui.state ngCookies]>
   $scope.$watch 'collapsed' -> if it?
     $cookies.collapsed = it
 
-  $scope.hackId = if $state.params.hackId => that else 'congressoccupied'
+  $scope.hackId = if $state.params.hackId => that else 'nonuke2014'
   $scope.$watch '$state.params.docId' (docId) ->
     $scope.docId = encodeURIComponent encodeURIComponent docId if docId
 
