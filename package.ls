@@ -16,6 +16,7 @@ scripts:
   test: 'gulp --require LiveScript test:unit'
   start: 'gulp --require LiveScript dev'
   protractor: 'gulp --require LiveScript test:e2e'
+  fork: 'gulp --require LiveScript replace'
 dependencies: {}
 devDependencies:
   express: '3.4.x'
@@ -55,3 +56,4 @@ devDependencies:
   "connect-livereload": '~0.3.2'
   "tiny-lr": '~0.0.5'
   'gulp-if': '~0.0.5'
+  'gulp-replace': '~0.2.0'
