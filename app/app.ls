@@ -22,7 +22,7 @@ angular.module \app <[ui app.templates app.controllers ui.state ui.bootstrap]>
       url: '/{docId}'
 
   $urlRouterProvider
-    .otherwise('/congressoccupied')
+    .otherwise('/nonuke2014')
 
   $locationProvider.html5Mode true
 
