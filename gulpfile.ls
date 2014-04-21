@@ -1,6 +1,6 @@
-GITHUB_ACCOUNT = 'hackfoldr'         # YOUR GITHUB ACCOUNT HERE
-HACKFOLDR_ID   = 'congressoccupied'  # YOUR HACKFOLDR ID HERE
-DOMAIN_NAME    = 'hackfoldr.org'     # YOUR DOMAIN NAME HERE
+GITHUB_ACCOUNT = 'ttcat'        # YOUR GITHUB ACCOUNT HERE
+HACKFOLDR_ID   = 'nonuke2014'   # YOUR HACKFOLDR ID HERE
+DOMAIN_NAME    = 'nonuke.today' # YOUR DOMAIN NAME HERE
 
 paths =
   pub: '_public'
