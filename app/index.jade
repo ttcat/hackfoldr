@@ -1,5 +1,5 @@
 doctype html
-html(lang='en')
+html(lang='en',prefix='og: http://ogp.me/ns#')
   head
     meta(charset='utf-8')
     meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
@@ -8,9 +8,14 @@ html(lang='en')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     meta(name='apple-mobile-web-app-capable', content='yes')
     meta(name='apple-mobile-web-app-status-bar-style', content='black')
-    meta(name='description', content='')
-    meta(name='author', content='')
-    title(ng-bind='$state.current.title') ...
+    meta(content='IE=edge', http-equiv='X-UA-Compatible')
+    meta(name='keywords', content='g0v,廢核,核四,核電,零時政府,歸零,林義雄')
+    meta(name='description', content='422 林義雄禁食反核，相關連署、活動、資訊彙整，包含即時影音直播、論述及相關資訊。')
+    meta(name='author', content='全國廢核行動平台')
+    meta(property="og:url", content='http://nonuke.today/')
+    meta(property="og:image", content='/assets/banner_nonuke.jpg')
+    meta(property="og:image:type", content="image/jpeg")
+    title(ng-bind='$state.current.title') 停建核四、遍地烽火全記錄
     link(rel="shotcut icon",href="/img/hackfoldr-icon.ico")
     link(rel='stylesheet', href='/css/app.css?#{new Date().getTime()}')
     base(href="/")
