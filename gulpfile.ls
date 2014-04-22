@@ -161,7 +161,7 @@ gulp.task 'index' ->
     .pipe gulp-jade do
       pretty: pretty
       locals:
-        googleAnalytics: 'UA-39804485-1'
+        googleAnalytics: 'UA-50246664-1'
     .pipe gulp.dest '_public'
     .pipe livereload!
 
