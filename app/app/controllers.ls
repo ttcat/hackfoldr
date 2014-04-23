@@ -91,6 +91,10 @@ angular.module 'app.controllers' <[ui.state ngCookies]>
   $scope.hackId = if $state.params.hackId => that else 'nonuke2014'
   $scope.$watch '$state.params.docId' (docId) ->
     $scope.docId = encodeURIComponent encodeURIComponent docId if docId
+  $scope.sidebar = false
+  $scope.toggleSidebar = ->
+    $scope.collapsed = false
+    $scope.sidebar = !$scope.sidebar
 
 .directive 'resize' <[$window]> ++ ($window) ->
   (scope, element, attrs) ->
