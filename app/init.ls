@@ -181,6 +181,6 @@ function formatTime(time) {
         sec = parseInt(time / 100) - (hours * 3600) - (min * 60),
         hundredths = pad(time - (sec * 100) - (min * 6000), 2);
     //return (min > 0 ? pad(min, 2) : "00") + ":" + pad(sec, 2) + ":" + hundredths;
-    return '林義雄先生禁食 ' + hours + " 小時 " + (min > 0 ? pad(min, 2) : "00") + " 分鐘 " + pad(sec, 2) + " 秒";
+    return '林義雄先生 禁食 ' + hours + " 小時 " + (min > 0 ? pad(min, 2) : "00") + " 分鐘 " + pad(sec, 2) + " 秒";
 }
   ``
