@@ -6,7 +6,7 @@ this.googleOnLoadCallback = ->
   )
 
 $ !->
-  $('body').prepend('<span id="stopwatch" style="position: absolute; color: #EBFF00; z-index: 99999; left: 45%; font-size: 14px; margin-top: 7px; padding: 3px; border-radius: 3px; background: black"></span>')
+  $('body').prepend('<span id="stopwatch" style="position: absolute; color: #EBFF00; z-index: 99999; left: 45%; font-size: 14px; margin-top: 7px; padding: 3px; border-radius: 3px; background: transparent; pointer-events: none"></span>')
   ``
 /**
  * jquery.timer.js
